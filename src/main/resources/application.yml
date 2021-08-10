@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/sakila?useUnicode=ture&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
